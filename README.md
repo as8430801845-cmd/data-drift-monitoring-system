@@ -54,8 +54,4 @@ The PDF includes the Next.js `page.tsx` and `layout.tsx` source code, but it doe
 
 The frontend source expects the backend at:
 
-`http://localhost:8000/api/monitor`
-
-## Source fidelity note
-
-The files in this repository were reconstructed from the source-code appendix of the supplied 60-page PDF. Where the PDF's text extraction contained obvious formatting artifacts (for example, the Python `__name__` guard), the code was normalized so the extracted source is runnable. No new project features were added.
+http://localhost:8000/api/monitor
